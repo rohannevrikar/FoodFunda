@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>FTRB</title>
+<link rel = "stylesheet" href = "css/bootstrap_theme.css"/>
+<script src ="js/jquery.js"></script>
+<script src ="js/bootstrap.js"></script>
+<script src = "js/app.js"></script>
+</head>
+<body>
+
+   <div id="navigation"></div>
+   <div class="login_form">
+   <h2>Sign up now to be a part of FTRB family!</h2>
+   <br>
+   
+   <form action = "SignupServlet" method = "post">
+   
+   <div class="form-group">
+    <label>Enter your name :</label>
+    <input type="text" class="form-control" id="email" name="signup_name" placeholder="Enter name" required>
+  </div>
+  
+  <div class="form-group">
+    <label>Enter your email :</label>
+    <input type="email" class="form-control" id="email" name="signup_email" placeholder="Enter email" required>
+  </div>
+  <div class="form-group">
+    <label for="pwd">Choose a password:</label>
+    <input type="password" class="form-control" id="pwd" name="signup_pwd" placeholder="Enter password" required>
+  </div>
+ 
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+    </div>
+</body>
+</html>
